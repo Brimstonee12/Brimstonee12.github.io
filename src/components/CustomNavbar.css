@@ -1,0 +1,47 @@
+
+
+.nav-link {
+    display: block;
+    padding: 0.5rem 1rem;
+    margin: 10px;
+    border-style:solid;
+    border-width:10px;
+    border-color:#232323;
+    border-radius: 30px;
+
+}
+.nav-link:hover{
+  border-style: solid;
+  border-width:10px;
+  border-radius: 30px;
+  border-color:white;
+
+}
+
+h1 {
+  color:white;
+}
+
+.logo-main {
+  text-align:center;
+  font-size:40px;
+}
+
+
+header{
+  margin-top:25px;
+  margin-bottom:25px;
+  background:#383838;
+  height:130px;
+  padding-top:35px;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius:10px;
+
+}
+
+@media(min-width:800px){
+  header {
+    width:750px;
+  }
+}
