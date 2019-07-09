@@ -11,11 +11,15 @@ import Contact from './components/Contact'
 
 class App extends Component {
   render() {
+    const history = createHistory({
+    basename: process.env.PUBLIC_URL,
+  });
     return(
       <Router>
         <Container>
           <CustomNavbar />
           <br/>
+          <ConnectedRouter history={history}>
           //NAVBAR ROUTES
           <Route exact path="/" component={News} />
           <Route path="/planets" component={Planets} />
@@ -35,7 +39,7 @@ class App extends Component {
           //RANKINGS
           <Route path="/stars-ranking" component={StarsRanking} />
           <Route path="/blackholes-ranking" component={BlackHolesRanking} />
-
+        </ConnectedRouter>
       </Container>
       </Router>
     );
