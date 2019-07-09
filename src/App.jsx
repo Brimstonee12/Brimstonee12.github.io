@@ -15,13 +15,11 @@ class App extends Component {
   render() {
 
     return(
-      <Router basename={process.env.PUBLIC_URL}>
-
+      <Router>
         <Container>
           <CustomNavbar />
           <br/>
           //NAVBAR ROUTES
-
 
           <Route exact path="/" component={News} />
           <Route path="/planets" component={Planets} />
