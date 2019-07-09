@@ -8,6 +8,7 @@
     border-width:10px;
     border-color:#232323;
     border-radius: 30px;
+    transition: all 0.3s ease;
 
 }
 .nav-link:hover{
