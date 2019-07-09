@@ -1,6 +1,6 @@
 import React, {Component} from 'react'
 import './App.css'
-import {BrowserRouter as HashRouter, Route, Link} from 'react-router-dom'
+import {BrowserRouter as Router, Route, Link} from 'react-router-dom'
 import News from './components/NewsSection/News'
 import Planets from './components/PlanetsSection/Planets'
 import CustomNavbar from './components/CustomNavbar'
@@ -15,7 +15,7 @@ class App extends Component {
   render() {
 
     return(
-      <HashRouter baseUrl="/">
+      <Router basename={process.env.PUBLIC_URL}>
 
         <Container>
           <CustomNavbar />
@@ -43,7 +43,7 @@ class App extends Component {
           <Route path="/blackholes-ranking" component={BlackHolesRanking} />
 
           </Container>
-      </HashRouter>
+      </Router>
     );
   }
 }
