@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "78f547ac317e866fa5a5f7b36541fcf2",
+    "revision": "6366eadecb8794ddf496acf0365ba6ca",
     "url": "/UniverseSandboxTM/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/UniverseSandboxTM/static/css/2.22a7d4ef.chunk.css"
   },
   {
-    "revision": "fc37dbad5e6b480af04f",
+    "revision": "d098c4824e24477c2c11",
     "url": "/UniverseSandboxTM/static/css/main.52b88943.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/UniverseSandboxTM/static/js/2.c27b0878.chunk.js"
   },
   {
-    "revision": "fc37dbad5e6b480af04f",
-    "url": "/UniverseSandboxTM/static/js/main.595b10a7.chunk.js"
+    "revision": "d098c4824e24477c2c11",
+    "url": "/UniverseSandboxTM/static/js/main.c37126c1.chunk.js"
   },
   {
     "revision": "f8b9b81b4b097d67f0cb",
