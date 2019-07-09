@@ -1,6 +1,6 @@
 import React, {Component} from 'react'
 import './App.css'
-import { BrowserRouter as Router, Route ,Switch} from 'react-router-dom'
+import { HashRouter, Router, Route} from 'react-router-dom'
 import News from './components/NewsSection/News'
 import Planets from './components/PlanetsSection/Planets'
 import CustomNavbar from './components/CustomNavbar'
@@ -18,9 +18,10 @@ class App extends Component {
         <Container>
           <CustomNavbar />
           <br/>
-          <BrowserRouter  basename={process.env.PUBLIC_URL}>
+
           //NAVBAR ROUTES
-          <Switch>
+        <HashRouter basename='/'>
+
           <Route exact path="/" component={News} />
           <Route path="/planets" component={Planets} />
           <Route path="/contact" component={Contact} />
@@ -39,8 +40,9 @@ class App extends Component {
           //RANKINGS
           <Route path="/stars-ranking" component={StarsRanking} />
           <Route path="/blackholes-ranking" component={BlackHolesRanking} />
-          </Switch>
-        </BrowserRouter>
+
+        </HashRouter>
+
       </Container>
       </Router>
     );
