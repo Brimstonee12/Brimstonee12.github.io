@@ -8,18 +8,17 @@ import {Container} from 'react-bootstrap'
 import {SunDetails, MercuryDetails, VenusDetails,EarthDetails,MarsDetails,JupiterDetails,SaturnDetails,UranusDetails,NeptuneDetails } from './components/PlanetsSection/SolarDetails'
 import {StarsRanking,BlackHolesRanking} from './components/PlanetsSection/Rankings'
 import Contact from './components/Contact'
+import { BrowserRouter } from 'react-router-dom'
 
 class App extends Component {
   render() {
-    const history = createHistory({
-    basename: process.env.PUBLIC_URL,
-  });
+
     return(
       <Router>
         <Container>
           <CustomNavbar />
           <br/>
-          <ConnectedRouter history={history}>
+          <BrowserRouter  basename={process.env.PUBLIC_URL}>
           //NAVBAR ROUTES
           <Route exact path="/" component={News} />
           <Route path="/planets" component={Planets} />
@@ -39,7 +38,7 @@ class App extends Component {
           //RANKINGS
           <Route path="/stars-ranking" component={StarsRanking} />
           <Route path="/blackholes-ranking" component={BlackHolesRanking} />
-        </ConnectedRouter>
+        </BrowserRouter>
       </Container>
       </Router>
     );
