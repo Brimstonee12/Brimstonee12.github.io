@@ -1,6 +1,6 @@
 import React, {Component} from 'react'
 import './App.css'
-import { BrowserRouter as  HashRouter, Route} from 'react-router-dom'
+import {BrowserRouter as Router, Route, Link} from 'react-router-dom'
 import News from './components/NewsSection/News'
 import Planets from './components/PlanetsSection/Planets'
 import CustomNavbar from './components/CustomNavbar'
@@ -8,18 +8,19 @@ import {Container} from 'react-bootstrap'
 import {SunDetails, MercuryDetails, VenusDetails,EarthDetails,MarsDetails,JupiterDetails,SaturnDetails,UranusDetails,NeptuneDetails } from './components/PlanetsSection/SolarDetails'
 import {StarsRanking,BlackHolesRanking} from './components/PlanetsSection/Rankings'
 import Contact from './components/Contact'
-// import {  HashRouter} from 'react-router-dom'
+import {HashRouter} from 'react-router-dom'
+
+
 
 class App extends Component {
   render() {
 
     return(
-      <HashRouter basename="/">
+      <Router baseUrl="/">
 
         <Container>
           <CustomNavbar />
           <br/>
-
           //NAVBAR ROUTES
 
 
@@ -42,10 +43,8 @@ class App extends Component {
           <Route path="/stars-ranking" component={StarsRanking} />
           <Route path="/blackholes-ranking" component={BlackHolesRanking} />
 
-
-      </Container>
-
-      </HashRouter>
+          </Container>
+      </Router>
     );
   }
 }
