@@ -1,9 +1,9 @@
 import React, {Component} from 'react'
 import {Button,Container} from 'react-bootstrap'
-import './Planets.css'
+import '../Planets.css'
 import {Link} from 'react-router-dom';
 import {StarsRankingsData,BlackHolesRankingsData} from './RankingsData'
-import {RankingProps} from './SolarProps'
+import {RankingProps} from '../PlanetsProps'
 
 
 class StarsRanking extends Component {

@@ -5,8 +5,8 @@ import News from './components/NewsSection/News'
 import Planets from './components/PlanetsSection/Planets'
 import CustomNavbar from './components/CustomNavbar'
 import {Container} from 'react-bootstrap'
-import {SunDetails, MercuryDetails, VenusDetails,EarthDetails,MarsDetails,JupiterDetails,SaturnDetails,UranusDetails,NeptuneDetails } from './components/PlanetsSection/SolarDetails'
-import {StarsRanking,BlackHolesRanking} from './components/PlanetsSection/Rankings'
+import {SunDetails, MercuryDetails, VenusDetails,EarthDetails,MarsDetails,JupiterDetails,SaturnDetails,UranusDetails,NeptuneDetails } from './components/PlanetsSection/SolarSystem/SolarDetails'
+import {StarsRanking,BlackHolesRanking} from './components/PlanetsSection/RankingSystem/Rankings'
 import Contact from './components/Contact'
 
 

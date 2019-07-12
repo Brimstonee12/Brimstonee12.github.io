@@ -1,10 +1,10 @@
 import React, {Component} from 'react'
 import {Button,Container, Jumbotron, Nav} from 'react-bootstrap'
 import './Planets.css'
-import SolarSystemData from './PlanetsData'
+import SolarSystemData from './SolarSystem/SolarData'
 import {Link} from 'react-router-dom';
-import RankingsData from './RankingsData'
-import {SolarSystemCards} from './SolarProps'
+import RankingsData from './RankingSystem/RankingsData'
+import {SolarSystemCards} from './PlanetsProps'
 
 
 class Planets extends Component {

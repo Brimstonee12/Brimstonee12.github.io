@@ -22,7 +22,15 @@
   width:137px;
   height:137px;
   overflow:hidden;
-  
+  transition: transform .2s;
+}
+
+.solar-img:hover {
+  transform: scale(1.2);
+}
+
+.link:hover {
+  style:none;
 }
 
 .buttonblock {

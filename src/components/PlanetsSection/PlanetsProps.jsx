@@ -1,7 +1,7 @@
 import React, {Component} from 'react'
 import {Button,Container,Image} from 'react-bootstrap'
 import './Planets.css'
-import SolarSystemData from './PlanetsData'
+import SolarSystemData from './SolarSystem/SolarData'
 import {Link} from 'react-router-dom';
 import Planets from './Planets'
 

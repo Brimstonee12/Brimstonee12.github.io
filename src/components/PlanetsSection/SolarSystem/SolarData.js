@@ -21,7 +21,7 @@ const SolarSystemData =
   },
   {
     link:'/earth-details',
-    img:'https://space-facts.com/wp-content/uploads/earth.png',
+    img:'https://upload.wikimedia.org/wikipedia/commons/2/22/Earth_Western_Hemisphere_transparent_background.png',
     title:'Earth'
   },
   {
@@ -36,7 +36,7 @@ const SolarSystemData =
   },
   {
     link:'/saturn-details',
-    img:'https://space-facts.com/wp-content/uploads/saturn.png',
+    img:'https://i.dlpng.com/static/png/4243570_thumb.png',
     title:'Saturn'
   },
   {
