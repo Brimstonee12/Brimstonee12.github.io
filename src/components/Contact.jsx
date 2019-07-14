@@ -6,7 +6,7 @@ import '../App.css'
 class Contact extends Component {
   render(){
     return(
-      <React.Fragment>
+      <>
         <Jumbotron>
           <h1>Contact Section</h1>
         </Jumbotron>
@@ -19,7 +19,7 @@ class Contact extends Component {
         <h4>This Website is made with ReactJS , React-Bootstrap. It's only a static version of website and its not gonna be published but in the other hand
         there will be other site with the same desing but with backend(django) and redux added in which will be published.</h4>
         </div>
-      </React.Fragment>
+      </>
 
     )
   }
