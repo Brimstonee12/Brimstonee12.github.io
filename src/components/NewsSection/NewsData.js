@@ -1,5 +1,3 @@
-import React from 'react'
-// Importujemy Obrazy za pomoca adresu danego obrazu
 
 
 const NewsData = [
@@ -25,7 +23,7 @@ const NewsData = [
     img:'https://www.universetoday.com/wp-content/uploads/2009/12/m88ms_block_crop-1830x1200.jpg',
     title:'Messier 88 – the NGC 4501 Spiral Galaxy',
     content:'Welcome back to Messier Monday! Today, we continue in our tribute to our dear friend, Tammy Plotner, by looking at the spiral galaxy known as Messier 88! During the 18th century, famed French astronomer Charles Messier noticed the presence of several “nebulous objects”  while surveying the night sky. Originally mistaking these objects for comets, he began to catalog them so that others would not make the same mistake. Today, the resulting list (known as the Messier Catalog) includes over 100 objects and is one of the most influential catalogs of Deep Space Objects.'
-    
+
 
 
   }

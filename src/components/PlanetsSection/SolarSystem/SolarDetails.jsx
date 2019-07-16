@@ -1,8 +1,7 @@
 import React, {Component} from 'react'
-import {Button,Container, Jumbotron, Nav} from 'react-bootstrap'
 import '../Planets.css'
 import {SolarProps} from '../PlanetsProps'
-import Planets from '../Planets'
+
 
 
 class SunDetails extends Component {render(){

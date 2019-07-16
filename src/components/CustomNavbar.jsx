@@ -1,6 +1,5 @@
-import React, { Component ,Fragment} from 'react'
-import { Navbar,Nav,NavItem,Button,Container,Jumbotron } from 'react-bootstrap';
-import { Link} from 'react-router-dom';
+import React, { Component } from 'react'
+import { Nav,Container } from 'react-bootstrap';
 import './CustomNavbar.css'
 
  class CustomNavbar extends Component {

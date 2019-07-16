@@ -1,8 +1,6 @@
 import React, { Component } from 'react'
-import {Link} from 'react-router-dom';
-import { Jumbotron,Container, Row, Col, Image, Button,Media } from 'react-bootstrap';
+import { Jumbotron,Container,Media } from 'react-bootstrap';
 import './News.css';
-// import planet from './assets/planet.jpg';
 import NewsData from './NewsData'
 
 
@@ -37,7 +35,7 @@ function CardNews(props) {
   return(
   <div>
     <Media>
-      <img className="mr-3" src={props.img}/>
+      <img className="mr-3" alt="" src={props.img}/>
       <Media.Body>
         <h5>{props.title}</h5>
         <p>{props.content}</p>

@@ -1,9 +1,7 @@
 import React, {Component} from 'react'
-import {Button,Container, Jumbotron, Nav} from 'react-bootstrap'
+import {Button, Container, Jumbotron} from 'react-bootstrap'
 import './Planets.css'
 import SolarSystemData from './SolarSystem/SolarData'
-import {Link} from 'react-router-dom';
-import RankingsData from './RankingSystem/RankingsData'
 import {SolarSystemCards} from './PlanetsProps'
 
 

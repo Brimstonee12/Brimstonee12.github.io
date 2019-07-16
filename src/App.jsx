@@ -1,6 +1,6 @@
-import React, {Component} from 'react'
+import React, {Component,Suspense} from 'react'
 import './App.css'
-import {BrowserRouter as Router, Route, Link} from 'react-router-dom'
+import {BrowserRouter as Router, Route ,Switch} from 'react-router-dom'
 import News from './components/NewsSection/News'
 import Planets from './components/PlanetsSection/Planets'
 import CustomNavbar from './components/CustomNavbar'
@@ -19,13 +19,14 @@ class App extends Component {
         <Container>
           <CustomNavbar />
           <br/>
-          //NAVBAR ROUTES
-
+          {/* NAVBAR ROUTES */}
+          <Suspense fallback={<div>Loading...</div>}>
+          <Switch>
           <Route exact path="/" component={News} />
           <Route path="/planets" component={Planets} />
           <Route path="/contact" component={Contact} />
 
-          //SOLAR SYSTEM DATAILS
+          {/* SOLAR SYSTEM DATAILS */}
           <Route path="/sun-details" component={SunDetails} />
           <Route path="/mercury-details" component={MercuryDetails} />
           <Route path="/venus-details" component={VenusDetails} />
@@ -36,11 +37,12 @@ class App extends Component {
           <Route path="/uranus-details" component={UranusDetails} />
           <Route path="/neptune-details" component={NeptuneDetails} />
 
-          //RANKINGS
+          {/* RANKINGS */}
           <Route path="/stars-ranking" component={StarsRanking} />
           <Route path="/blackholes-ranking" component={BlackHolesRanking} />
-
-          </Container>
+          </Switch>
+          </Suspense>
+        </Container>
       </Router>
     );
   }
