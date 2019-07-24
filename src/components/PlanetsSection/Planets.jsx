@@ -47,8 +47,9 @@ class Planets extends Component {
         <div className="buttonblock">
           <Button className="ranking-button" href="/stars-ranking" size="lg" onClick=""> Top 10 Stars</Button>
           <Button className="ranking-button" href="/blackholes-ranking" size="lg" onClick=""> Top 10 Black Holes</Button>
-          <Button className="ranking-button" href="" size="lg" onClick=""> Top 10 Planets</Button>
-          <Button className="ranking-button" href="" size="lg" onClick=""> Top 5 Telescopes</Button>
+          <Button className="ranking-button" href="/planets-ranking" size="lg" onClick=""> Top 10 Planets</Button>
+          <Button className="ranking-button" href="/btelescopes-ranking" size="lg" onClick=""> Top 5 Biggest Telescopes</Button>
+          <Button className="ranking-button" href="" size="lg" onClick=""> Top 10 Home Telescopes</Button>
         </div>:
         null }
     <br/>

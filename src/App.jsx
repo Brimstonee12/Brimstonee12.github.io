@@ -6,7 +6,7 @@ import Planets from './components/PlanetsSection/Planets'
 import CustomNavbar from './components/CustomNavbar'
 import {Container} from 'react-bootstrap'
 import {SunDetails, MercuryDetails, VenusDetails,EarthDetails,MarsDetails,JupiterDetails,SaturnDetails,UranusDetails,NeptuneDetails } from './components/PlanetsSection/SolarSystem/SolarDetails'
-import {StarsRanking,BlackHolesRanking} from './components/PlanetsSection/RankingSystem/Rankings'
+import {StarsRanking,BlackHolesRanking,BiggestTelescopesRanking,PlanetsRanking} from './components/PlanetsSection/RankingSystem/Rankings'
 import Contact from './components/Contact'
 
 
@@ -40,6 +40,9 @@ class App extends Component {
           {/* RANKINGS */}
           <Route path="/stars-ranking" component={StarsRanking} />
           <Route path="/blackholes-ranking" component={BlackHolesRanking} />
+          <Route path="/btelescopes-ranking" component={BiggestTelescopesRanking} />
+          <Route path="/planets-ranking" component={PlanetsRanking} />
+
           </Switch>
           </Suspense>
         </Container>

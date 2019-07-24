@@ -1,6 +1,6 @@
 import React, {Component} from 'react'
 import '../Planets.css'
-import {StarsRankingsData,BlackHolesRankingsData} from './RankingsData'
+import {StarsRankingsData,BlackHolesRankingsData,BiggestTelescopesRankingsData,PlanetsRankingsData} from './RankingsData'
 import {RankingProps} from '../PlanetsProps'
 
 
@@ -26,4 +26,29 @@ class BlackHolesRanking extends Component {
   }
 }
 
-export {StarsRanking,BlackHolesRanking}
+
+class BiggestTelescopesRanking extends Component {
+  render(){
+    const BTelescopesRankinData = BiggestTelescopesRankingsData.map(rank => <RankingProps key={rank.title_ranking}
+       title_ranking={rank.title_ranking} img_ranking={rank.img_ranking} content_ranking={rank.content_ranking} />)
+
+    return(
+      BTelescopesRankinData
+    )
+  }
+}
+
+
+class PlanetsRanking extends Component {
+  render(){
+    const PlanetsRankinData = PlanetsRankingsData.map(rank => <RankingProps key={rank.title_ranking}
+       title_ranking={rank.title_ranking} img_ranking={rank.img_ranking} content_ranking={rank.content_ranking} />)
+
+    return(
+      PlanetsRankinData
+    )
+  }
+}
+
+
+export {StarsRanking,BlackHolesRanking,BiggestTelescopesRanking,PlanetsRanking}
