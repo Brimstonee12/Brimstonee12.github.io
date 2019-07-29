@@ -3,32 +3,50 @@
 const NewsData = [
 
   {
-    img:'https://www.universetoday.com/wp-content/uploads/2019/06/Falcon-Heavy-STP2-Streak-small.jpg',
-    title:'Third Falcon Heavy Launch Blasts 24 Payloads Into Orbit Including a Solar Sail. Doesn’t Quite Stick the Landing',
-    content:'In what Elon Musk is calling their “most difficult” mission so far, SpaceX launched the Falcon Heavy rocket for the third time. The launch took place at 2:30 am ET Tuesday from a launch pad at Kennedy Space Center in Florida. The mission was called STP-2, and Universe Today sent a photographer to capture all the action.'
+    date:"July 26, 2019",
+    link:"/news1",
+    img:'https://www.universetoday.com/wp-content/uploads/2015/05/m15-077a.jpg',
+    title:'Thanks to Gaia, We Now Know Exactly How Big Europa is',
+    content:'Jupiter’s moon Europa continues to be a source of wonder and scientific intrigue. As one of the four Galilean Moons (so-named because of their founder, Galileo Galilee), Europa is one of Jupiter’s largest satellites and is considered one of the best bets for finding extraterrestrial life in the Solar System. And recently, it joined its cousins (Io and Callisto) in passing in front of a star.'
   },
 
   {
-    img:'https://www.universetoday.com/wp-content/uploads/2019/06/Galaxies_with_a_chance_of_asteroids-2000x1200.jpg',
+    date:"July 25, 2019",
+    link:'/news2',
+    img:'https://www.universetoday.com/wp-content/uploads/2019/07/001_2-580x326.jpg',
     title:'Hubble is the Ultimate Multitasker: Discovering Asteroids While it’s Doing Other Observations',
     content:'It looks like a poster of the famous Hubble Deep Field, marked with white streaks by a child, or put away carelessly and scratched in the process. But it’s not. The white streaks aren’t accidents; they’re the paths of asteroids.'
   },
 
   {
-    img:'https://www.universetoday.com/wp-content/uploads/2019/06/uranusrings635-1-580x418.jpg',
-    title:'Uranus’ Rings are Surprisingly Bright in Thermal Emissions',
-    content:'During the late 1970s, scientists made a rather interesting discovery about the gas giants of the Solar System. Thanks to ongoing observations using improved optics, it was revealed that gas giants like Uranus – and not just Saturn – have ring systems about them. The main difference is, these ring systems are not easily visible from a distance using conventional optics and require exceptional timing to see light being reflected off of them.'
+    date:"July 24, 2019",
+    link:'/news3',
+    img:'https://www.universetoday.com/wp-content/uploads/2019/07/Chandrayaan-2-launch-580x356.jpg',
+    title:'India’s Chandrayaan-2 is Heading to the Moon',
+    content:'ISRO (Indian Space Research Organization) has successfully launched their Chandrayaan-2 mission to the Moon. The mission, which includes an orbiter, a lander, and a rover, was launched into space on a GSLV Mk III rocket on July 22nd, after a week-long delay. On September 7th it will perform a soft-landing on the Moon.'
   },
   {
-    img:'https://www.universetoday.com/wp-content/uploads/2009/12/m88ms_block_crop-1830x1200.jpg',
-    title:'Messier 88 – the NGC 4501 Spiral Galaxy',
-    content:'Welcome back to Messier Monday! Today, we continue in our tribute to our dear friend, Tammy Plotner, by looking at the spiral galaxy known as Messier 88! During the 18th century, famed French astronomer Charles Messier noticed the presence of several “nebulous objects”  while surveying the night sky. Originally mistaking these objects for comets, he began to catalog them so that others would not make the same mistake. Today, the resulting list (known as the Messier Catalog) includes over 100 objects and is one of the most influential catalogs of Deep Space Objects.'
-
-
-
+    date:"July 17, 2019",
+    link:'/news4',
+    img:'https://www.universetoday.com/wp-content/uploads/2016/01/12376190_10156964768585131_5608307214953753704_n-580x387.jpg',
+    title:'Crew Dragon Exploded Back in April Because of a Nitrogen Tetroxide Leak',
+    content:'On Saturday, April 20th, 2019, an explosion took place on SpaceX’s Landing Zone 1 at Cape Canaveral Air Force Station in Florida. The company was engaged in a series of static fire engine tests for their Crew Dragon‘s In-Flight Abort test vehicle. This vehicle is essential for crewed missions since it acts as a sort of ejection seat for the crew capsule in the event of an emergency.'
+  },
+  {
+    date:"July 16, 2019",
+    link:'/news5',
+    img:'https://www.universetoday.com/wp-content/uploads/2019/07/dims-580x341.jpg',
+    title:'First Ever Image of Quantum Entanglement',
+    content:'During the 1930s, venerable theoretical physicist Albert Einstein returned to the field of quantum mechanics, which his theories of relativity helped to create. Hoping to develop a more complete theory of how particles behave, Einstein was instead horrified by the prospect of quantum entanglement – something he described as “spooky action at a distance”.'
+  },
+  {
+    date:"July 16, 2019",
+    link:'/news6',
+    img:'https://www.universetoday.com/wp-content/uploads/2015/10/pia19839-galecrater-main-a-580x266.png',
+    title:'Pictures from Curiosity Show the Bottom of an Ancient Lake on Mars, the Perfect Place to Search for Evidence of Past Life',
+    content:'In a way, Mars looks like a dusty, dead, dry, boring planet. But science says otherwise. Science says that Mars used to be wet and warm, with an atmosphere. And science says that it was wet and warm for billions of years, easily long enough for life to appear and develop.'
   }
-
-
 ]
+
 
 export default NewsData

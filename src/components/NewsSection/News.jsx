@@ -1,13 +1,14 @@
 import React, { Component } from 'react'
-import { Jumbotron,Container,Media } from 'react-bootstrap';
+import { Jumbotron,Container,Media,Image } from 'react-bootstrap';
 import './News.css';
 import NewsData from './NewsData'
+import {Link} from 'react-router-dom';
 
 
 class News extends Component {
   render(){
     const NewsComponents = NewsData.map(comp => <CardNews key={comp.title}
-       img={comp.img} title={comp.title} content={comp.content} />)
+       date ={comp.date} link={comp.link} img={comp.img} title={comp.title} content={comp.content} />)
 
     return(
       <Container>
@@ -31,18 +32,39 @@ class News extends Component {
   }
 }
 
-function CardNews(props) {
-  return(
-  <div>
+
+const CardNews = (props) => {
+  return (
+    <>
+  <div className="news-card">
+  <Link to={props.link}>
     <Media>
-      <img className="mr-3" alt="" src={props.img}/>
+      <img className="mr-3" alt="" src={props.img} />
       <Media.Body>
+        <p className="news-date">{props.date}</p>
         <h5>{props.title}</h5>
         <p>{props.content}</p>
       </Media.Body>
     </Media>
-    <br/>
+  </Link>
   </div>
+  <br/>
+  </>
+)
+}
+
+const NewsDetailProps = props => {
+  return(
+    <>
+      <p className="news-date">{props.date}</p>
+      <h1>{props.title}</h1>
+      <br/>
+      <h4>{props.content_First}</h4>
+      <Image src={props.img_First} alt="" fluid/>
+      <h4>{props.content_Second}</h4>
+      <Image src={props.img_Second} alt="" fluid/>
+      <h4>{props.content_Third}</h4>
+    </>
   )
 }
 
@@ -50,6 +72,4 @@ function CardNews(props) {
 
 
 
-
-
-export default News
+export {News,NewsDetailProps}
