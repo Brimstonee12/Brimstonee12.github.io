@@ -9,13 +9,13 @@ import {SunDetails, MercuryDetails, VenusDetails,EarthDetails,MarsDetails,Jupite
 import {StarsRanking,BlackHolesRanking,BiggestTelescopesRanking,PlanetsRanking} from './components/PlanetsSection/RankingSystem/Rankings'
 import Contact from './components/Contact'
 import {News1,News2,News3,News4,News5,News6} from './components/NewsSection/NewsDetail'
-
+import ScrollToTop from './PageDirection'
 
 class App extends Component {
   render() {
-
     return(
       <Router>
+       <ScrollToTop>
         <Container>
           <CustomNavbar />
           <br/>
@@ -54,6 +54,7 @@ class App extends Component {
           </Switch>
           </Suspense>
         </Container>
+      </ScrollToTop>
       </Router>
     );
   }
