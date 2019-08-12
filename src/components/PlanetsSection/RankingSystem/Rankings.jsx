@@ -1,6 +1,6 @@
 import React, {Component} from 'react'
 import '../Planets.css'
-import {StarsRankingsData,BlackHolesRankingsData,BiggestTelescopesRankingsData,PlanetsRankingsData} from './RankingsData'
+import {StarsRankingsData,BlackHolesRankingsData,BiggestTelescopesRankingsData,PlanetsRankingsData} from './RankingsData.js'
 import {RankingProps} from '../PlanetsProps'
 
 
