@@ -18,7 +18,7 @@ import './CustomNavbar.css'
         <Nav.Link href="/" className="nav-side"><h1>News</h1></Nav.Link>
         </Nav.Item>
         <Nav.Item>
-        <Nav.Link href="/planets" className="nav-mid"><h1>Planets</h1></Nav.Link>
+        <Nav.Link href="/planets" className="nav-mid"><h1>Wikipedia</h1></Nav.Link>
         </Nav.Item>
         <Nav.Item>
         <Nav.Link className="nav-mid"><h1>SandBox</h1></Nav.Link>

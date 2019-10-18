@@ -31,7 +31,8 @@ class Planets extends Component {
   <Container>
     <br/>
       <Jumbotron>
-        <h2> Welcome to Planets Section</h2>
+        <h2> Welcome to Planets Section Relaxation Meditation Ambient Music presents Space Ambient Music LIVE 24/7: Space Traveling, Interstellar Journey, Universe Exploring
+It is an excellent spiritual Background for Studying, Dreaming, Meditation, Gaming, Yoga, Writing and creating art, Stress Relief and complete relaxation.</h2>
       </Jumbotron>
     <br/>
 
@@ -44,7 +45,7 @@ class Planets extends Component {
 
     <Button className="WikiButton" variant="secondary" size="lg" onClick={this.onClick2} block>Rankings</Button>
       {this.state.isOpen2 === true ?
-        <div className="buttonblock">
+        <div className="RankingsBlock">
           <Button className="ranking-button" href="/stars-ranking" size="lg" onClick=""> Top 10 Stars</Button>
           <Button className="ranking-button" href="/blackholes-ranking" size="lg" onClick=""> Top 10 Black Holes</Button>
           <Button className="ranking-button" href="/planets-ranking" size="lg" onClick=""> Top 10 Planets</Button>
@@ -55,7 +56,7 @@ class Planets extends Component {
     <br/>
     <Button className="WikiButton" variant="secondary" size="lg" onClick={this.onClick3} block>Something</Button>
       {this.state.isOpen3 === true ?
-      <div className="buttonblock">
+      <div className="RankingsBlock">
         <Button className="ranking-button" onClick=""> CLick</Button>
         <a href='/planets'>Test</a>
       </div>:

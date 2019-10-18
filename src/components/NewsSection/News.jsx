@@ -59,11 +59,17 @@ const NewsDetailProps = props => {
       <p className="news-date">{props.date}</p>
       <h1>{props.title}</h1>
       <br/>
-      <h4>{props.content_First}</h4>
-      <Image src={props.img_First} alt="" fluid/>
-      <h4>{props.content_Second}</h4>
-      <Image src={props.img_Second} alt="" fluid/>
-      <h4>{props.content_Third}</h4>
+      <h4>{props.content_1}</h4>
+      <Image src={props.img_1} alt="" fluid/>
+      <h4>{props.content_2}</h4>
+      <br/>
+      <h4>{props.content_3}</h4>
+      <Image src={props.img_2} alt="" fluid/>
+      <h4>{props.content_4}</h4>
+      <br/>
+      <h4>{props.content_5}</h4>
+      <br/>
+      <h4>{props.content_6}</h4>
     </>
   )
 }

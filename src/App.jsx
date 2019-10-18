@@ -8,7 +8,7 @@ import {Container} from 'react-bootstrap'
 import {SunDetails, MercuryDetails, VenusDetails,EarthDetails,MarsDetails,JupiterDetails,SaturnDetails,UranusDetails,NeptuneDetails } from './components/PlanetsSection/SolarSystem/SolarDetails'
 import {StarsRanking,BlackHolesRanking,BiggestTelescopesRanking,PlanetsRanking} from './components/PlanetsSection/RankingSystem/Rankings'
 import Contact from './components/Contact'
-import {News1,News2,News3,News4,News5,News6} from './components/NewsSection/NewsDetail'
+import {News1,News2,News3,News4,News5,News6,News7,News8} from './components/NewsSection/NewsDetail'
 import ScrollToTop from './PageDirection'
 
 class App extends Component {
@@ -50,6 +50,8 @@ class App extends Component {
           <Route path="/news4" component={News4} />
           <Route path="/news5" component={News5} />
           <Route path="/news6" component={News6} />
+          <Route path="/news7" component={News7} />
+          <Route path="/news8" component={News8} />
 
           </Switch>
           </Suspense>

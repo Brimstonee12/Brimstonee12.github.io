@@ -1,85 +1,99 @@
 
 .container {
   text-align:center;
-
+}
+hr {
+  background:white;
 }
 
+/* HEADING */
 .jumbotron {
   background:#383838;
   height:auto;
   padding:10px;
-  margin-top:100px;
+  margin-top:70px;
+  text-align:center;
 }
 
-.solarblock {
-  margin-top:20px;
-  display:inline-block;
-  float:left;
-}
-
+/* WIKI BUTTONS */
 .WikiButton{
   border-radius:20px;
   background-color:#313131;
   border-color: #007bff;
   border-width:1px;
 }
-/* #0034ffa3 */
 .WikiButton:hover{
   background-color:#3c3c3c;
   border-color:#007bff;
 }
 
+/* SOLAR SYSTEM BLOCK */
+.solarblock {
+  margin-top:20px;
+  display:inline-block;
+  float:left;
+}
 .solar-img {
   width:137px;
   height:137px;
   overflow:hidden;
   transition: transform .2s;
 }
-
 .solar-img:hover {
   transform: scale(1.2);
 }
-
 .link:hover {
   style:none;
 }
 
-.buttonblock {
+/* RANKING BUTTONS ALIGN */
+.RankingsBlock {
   margin-top:20px;
   display:inline-block;
   overflow:hidden;
   padding:20px;
-
 }
-
 .ranking-button {
   margin:10px;
   border-radius:15px;
   overflow:hidden;
   background:none;
-
 }
-
 .ranking-button:hover {
-  /* background-color:none; */
   background:none;
   color:none;
   border-radius:15px;
-
 }
 
+/* SOLAR SYSTEM DETAILS */
 .h1-detail {
   font-size:80px;
 }
-
 .img-fluid {
     max-width: 100%;
     height: auto;
 }
 
-hr {
-  background:white;
+@media (max-width: 500px){
+h2 {
+    font-size:2rem;
 }
+h4 {
+    font-size:1.2rem;
+}
+.h1-detail{
+    font-size:3rem;
+}}
+
+
+
+
+
+
+
+
+
+
 
 @media (min-width: 468px){
 .container {
