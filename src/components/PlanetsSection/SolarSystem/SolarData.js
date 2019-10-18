@@ -35,7 +35,7 @@ const SolarSystemData =
   },
   {
     link:'/saturn-details',
-    img:'https://i.dlpng.com/static/png/4243570_thumb.png',
+    img:'https://mapsroom.com/wp-content/uploads/2019/08/saturn-facts-interesting-facts-about-planet-saturn-the-planets-156465067984nkg.png',
     title:'Saturn'
   },
   {

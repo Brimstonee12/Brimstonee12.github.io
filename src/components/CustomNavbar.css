@@ -23,15 +23,15 @@ h1 {
 .nav-mid{
   opacity:0;
   animation-name:nv-m;
-  animation-duration:1s;
-  animation-delay:1s;
+  animation-duration:0.5s;
+  animation-delay:0.5s;
   animation-fill-mode:forwards;
 }
 .nav-side{
   opacity:0;
   animation-name:nv-s;
-  animation-duration:2s;
-  animation-delay:2s;
+  animation-duration:1.5s;
+  animation-delay:1.5s;
   animation-fill-mode:forwards;
 }
 @keyframes nv-m{
@@ -64,7 +64,7 @@ header{
   border-radius:10px;
   border-width:1px;
   border-style:solid;
-  border-color:#00209c;
+  /* border-color:#00209c; */
 }
 .logo-main {
   text-align:center;

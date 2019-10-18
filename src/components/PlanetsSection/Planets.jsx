@@ -35,14 +35,14 @@ class Planets extends Component {
       </Jumbotron>
     <br/>
 
-    <Button  variant="secondary" size="lg" onClick={this.onClick} block>Solar System</Button>
+    <Button className="WikiButton" variant="secondary" size="lg" onClick={this.onClick} block>Solar System</Button>
       {this.state.isOpen === true ?
         SolarData:
         null }
 
         <br/>
 
-    <Button  variant="secondary" size="lg" onClick={this.onClick2} block>Rankings</Button>
+    <Button className="WikiButton" variant="secondary" size="lg" onClick={this.onClick2} block>Rankings</Button>
       {this.state.isOpen2 === true ?
         <div className="buttonblock">
           <Button className="ranking-button" href="/stars-ranking" size="lg" onClick=""> Top 10 Stars</Button>
@@ -53,7 +53,7 @@ class Planets extends Component {
         </div>:
         null }
     <br/>
-    <Button  variant="secondary" size="lg" onClick={this.onClick3} block>Something</Button>
+    <Button className="WikiButton" variant="secondary" size="lg" onClick={this.onClick3} block>Something</Button>
       {this.state.isOpen3 === true ?
       <div className="buttonblock">
         <Button className="ranking-button" onClick=""> CLick</Button>

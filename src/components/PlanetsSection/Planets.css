@@ -15,7 +15,18 @@
   margin-top:20px;
   display:inline-block;
   float:left;
+}
 
+.WikiButton{
+  border-radius:20px;
+  background-color:#313131;
+  border-color: #007bff;
+  border-width:1px;
+}
+/* #0034ffa3 */
+.WikiButton:hover{
+  background-color:#3c3c3c;
+  border-color:#007bff;
 }
 
 .solar-img {
