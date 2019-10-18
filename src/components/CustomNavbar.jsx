@@ -15,16 +15,16 @@ import './CustomNavbar.css'
 
       <Nav className="justify-content-center" activeKey="/">
         <Nav.Item>
-        <Nav.Link href="/"><h1>News</h1></Nav.Link>
+        <Nav.Link href="/" className="nav-side"><h1>News</h1></Nav.Link>
         </Nav.Item>
         <Nav.Item>
-        <Nav.Link href="/planets" ><h1>Planets</h1></Nav.Link>
+        <Nav.Link href="/planets" className="nav-mid"><h1>Planets</h1></Nav.Link>
         </Nav.Item>
         <Nav.Item>
-        <Nav.Link ><h1>SandBox</h1></Nav.Link>
+        <Nav.Link className="nav-mid"><h1>SandBox</h1></Nav.Link>
         </Nav.Item>
         <Nav.Item>
-        <Nav.Link href="/contact"><h1>Contact</h1></Nav.Link>
+        <Nav.Link href="/contact" className="nav-side"><h1>Contact</h1></Nav.Link>
         </Nav.Item>
       </Nav>
     </>

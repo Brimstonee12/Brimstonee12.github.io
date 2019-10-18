@@ -38,9 +38,9 @@ const CardNews = (props) => {
     <>
   <div className="news-card">
   <Link to={props.link}>
-    <Media>
-      <img className="mr-3" alt="" src={props.img} />
-      <Media.Body>
+    <Media className="media">
+      <Image className="mr-3" alt="" src={props.img}></Image>
+      <Media.Body className="media-body">
         <p className="news-date">{props.date}</p>
         <h5>{props.title}</h5>
         <p>{props.content}</p>

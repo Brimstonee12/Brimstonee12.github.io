@@ -1,46 +1,81 @@
+h1 {
+  color:white;
+}
 
-
+/* NAVBAR */
 .nav-link {
     display: block;
     padding: 0.5rem 1rem;
     margin: 10px;
     border-style:solid;
-    border-width:10px;
+    border-width:9px;
     border-color:#232323;
     border-radius: 30px;
     transition: all 0.3s ease;
-
 }
 .nav-link:hover{
   border-style: solid;
-  border-width:10px;
+  border-width:9px;
   border-radius: 30px;
   border-color:white;
-
 }
 
-h1 {
-  color:white;
+.nav-mid{
+  opacity:0;
+  animation-name:nv-m;
+  animation-duration:1s;
+  animation-delay:1s;
+  animation-fill-mode:forwards;
 }
-
-.logo-main {
-  text-align:center;
-  font-size:40px;
+.nav-side{
+  opacity:0;
+  animation-name:nv-s;
+  animation-duration:2s;
+  animation-delay:2s;
+  animation-fill-mode:forwards;
 }
+@keyframes nv-m{
+  0% {opacity:0}
+  100% {opacity:1}
+}
+@keyframes nv-s{
+  0% {opacity:0}
+  100% {opacity:1}
+}
+@media(max-width:800px){
+  .nav-mid{
+    opacity:1;
+    animation:none;
+  }
+  .nav-side{
+    opacity:1;
+    animation:none;
+  }}
 
-
+/* LOGO NEWS */
 header{
   margin-top:25px;
   margin-bottom:25px;
-  background:#383838;
+  background:#2b2b2b;
   height:130px;
   padding-top:35px;
   margin-right: auto;
   margin-left: auto;
   border-radius:10px;
-
+  border-width:1px;
+  border-style:solid;
+  border-color:#00209c;
+}
+.logo-main {
+  text-align:center;
+  font-size:40px;
 }
 
+@media(max-width:500px){
+  .logo-main {
+    font-size:35px;
+  }
+}
 @media(min-width:800px){
   header {
     width:750px;
