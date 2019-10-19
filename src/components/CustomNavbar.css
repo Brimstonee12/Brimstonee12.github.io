@@ -21,7 +21,7 @@ h1 {
 }
 @media(max-width:500px){
   h1 {
-    font-size:35px;
+    font-size:30px;
   }
   .nav-link {
     border-width:6px;

@@ -4,7 +4,7 @@ const NewsData = [
   {
     date:"October 17, 2019",
     link:"/news1",
-    img:'http://mirkosmosa.ru/images/big/news/7/6575.jpg',
+    img:'https://itsider.com.ua/wp-content/uploads/2019/10/Snymok-66.png',
     title:'Here’s the Picture We’ve Been Waiting for. Hubble’s Photo of Interstellar Comet 2I/Borisov',
     content:'Leave it up to the good ole Hubble Space Telescope. The workhorse telescope has given us a photo of the new interstellar comet 2I/Borisov. Take that, fancy new telescopes.'
   },
