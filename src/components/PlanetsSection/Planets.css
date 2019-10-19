@@ -36,9 +36,9 @@ hr {
 
 /* SOLAR SYSTEM BLOCK */
 .solarblock {
-  margin-top:20px;
+  /* margin-top:20px;
   display:inline-block;
-  float:left;
+  float:left; */
 }
 .solar-img {
   width:137px;
@@ -56,12 +56,15 @@ hr {
 /* RANKING BUTTONS ALIGN */
 .RankingsBlock {
   margin-top:20px;
-  /* display:inline-block; */
   display:flex;
   justify-content:space-between;
   flex-wrap:wrap;
   overflow:hidden;
 }
+@media (max-width: 540px){
+.RankingsBlock {
+    justify-content:center;
+  }}
 
 .ranking_button {
   margin: 30px auto;

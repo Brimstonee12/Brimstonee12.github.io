@@ -19,6 +19,17 @@ h1 {
   border-radius: 30px;
   border-color:white;
 }
+@media(max-width:500px){
+  h1 {
+    font-size:35px;
+  }
+  .nav-link {
+    border-width:6px;
+  }
+  .nav-link:hover {
+    border-width:6px;
+  }
+}
 
 .nav-mid{
   opacity:0;
@@ -42,7 +53,7 @@ h1 {
   0% {opacity:0}
   100% {opacity:1}
 }
-@media(max-width:800px){
+@media(max-width:888px){
   .nav-mid{
     opacity:1;
     animation:none;
@@ -51,6 +62,8 @@ h1 {
     opacity:1;
     animation:none;
   }}
+
+
 
 /* LOGO NEWS */
 header{

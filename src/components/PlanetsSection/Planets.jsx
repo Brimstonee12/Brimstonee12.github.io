@@ -39,7 +39,9 @@ class Planets extends Component {
 
     <Button className="WikiButton" variant="secondary" size="lg" onClick={this.onClick} block>Solar System</Button>
       {this.state.isOpen === true ?
-        SolarData:
+          <div className="RankingsBlock">
+            {SolarData}
+          </div>:
         null }
 
     <br/>
@@ -55,9 +57,7 @@ class Planets extends Component {
 
     <Button className="WikiButton" variant="secondary" size="lg" onClick={this.onClick3} block>Physics</Button>
       {this.state.isOpen3 === true ?
-      <div className="RankingsBlock">
-      
-      </div>:
+        <h2>Coming Soon!</h2>:
       null }
 
           <br/>
