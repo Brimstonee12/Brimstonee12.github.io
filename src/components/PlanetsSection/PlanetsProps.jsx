@@ -76,7 +76,20 @@ function SolarProps(props) {
     )
     }
 
-
+function RankingButtonsProps(props){
+  return(
+    <Link to={props.link}>
+      <div class="ranking_button">
+      <div class="ranking_button_img">
+        <img src={props.img} />
+      </div>
+      <div class="ranking_button_title">
+        <p>{props.title}</p>
+      </div>
+      </div>
+    </Link>
+  )
+}
 
 
 function RankingProps(props) {
@@ -84,7 +97,7 @@ function RankingProps(props) {
   <Container>
     <br/>
     <h1 className="text-left" >{props.title_ranking}</h1>
-    <Image src={props.img_ranking} alt="" fluid/>
+    <Image src={props.img_ranking} className="rank-img" alt="" fluid/>
     <h4>{props.content_ranking}</h4>
     <br/>
     <hr/>
@@ -93,4 +106,4 @@ function RankingProps(props) {
   )
   }
 
-export {SolarSystemCards,SolarProps,RankingProps}
+export {SolarSystemCards,SolarProps,RankingProps,RankingButtonsProps}

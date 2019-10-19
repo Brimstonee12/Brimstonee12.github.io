@@ -2,8 +2,8 @@ import React, {Component} from 'react'
 import {Button, Container, Jumbotron} from 'react-bootstrap'
 import './Planets.css'
 import SolarSystemData from './SolarSystem/SolarData'
-import {SolarSystemCards} from './PlanetsProps'
-
+import {SolarSystemCards,RankingButtonsProps} from './PlanetsProps'
+import {RankingButtonData} from './RankingSystem/RankingButtonsData'
 
 class Planets extends Component {
     state ={
@@ -26,14 +26,15 @@ class Planets extends Component {
     const SolarData = SolarSystemData.map(solar => <SolarSystemCards link={solar.link} key={solar.title}
        img={solar.img} title={solar.title} /> )
 
+    const RankingsButtonsData = RankingButtonData.map(btn => <RankingButtonsProps
+      link={btn.link} title={btn.title} img={btn.img}/>)
 
     return(
   <Container>
-    <br/>
       <Jumbotron>
-        <h2> Welcome to Planets Section Relaxation Meditation Ambient Music presents Space Ambient Music LIVE 24/7: Space Traveling, Interstellar Journey, Universe Exploring
-It is an excellent spiritual Background for Studying, Dreaming, Meditation, Gaming, Yoga, Writing and creating art, Stress Relief and complete relaxation.</h2>
+        <h2> Welcome to Wikipedia Section </h2>
       </Jumbotron>
+
     <br/>
 
     <Button className="WikiButton" variant="secondary" size="lg" onClick={this.onClick} block>Solar System</Button>
@@ -41,26 +42,26 @@ It is an excellent spiritual Background for Studying, Dreaming, Meditation, Gami
         SolarData:
         null }
 
-        <br/>
+    <br/>
 
     <Button className="WikiButton" variant="secondary" size="lg" onClick={this.onClick2} block>Rankings</Button>
       {this.state.isOpen2 === true ?
         <div className="RankingsBlock">
-          <Button className="ranking-button" href="/stars-ranking" size="lg" onClick=""> Top 10 Stars</Button>
-          <Button className="ranking-button" href="/blackholes-ranking" size="lg" onClick=""> Top 10 Black Holes</Button>
-          <Button className="ranking-button" href="/planets-ranking" size="lg" onClick=""> Top 10 Planets</Button>
-          <Button className="ranking-button" href="/btelescopes-ranking" size="lg" onClick=""> Top 5 Biggest Telescopes</Button>
-          <Button className="ranking-button" href="" size="lg" onClick=""> Top 10 Home Telescopes</Button>
+          {RankingsButtonsData }
         </div>:
         null }
-    <br/>
-    <Button className="WikiButton" variant="secondary" size="lg" onClick={this.onClick3} block>Something</Button>
+
+        <br/>
+
+    <Button className="WikiButton" variant="secondary" size="lg" onClick={this.onClick3} block>Physics</Button>
       {this.state.isOpen3 === true ?
       <div className="RankingsBlock">
-        <Button className="ranking-button" onClick=""> CLick</Button>
-        <a href='/planets'>Test</a>
+      
       </div>:
       null }
+
+          <br/>
+      <Button className="WikiButton" variant="secondary" size="lg"  block>History</Button>
   </Container>
     )
   }

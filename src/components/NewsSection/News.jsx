@@ -15,10 +15,9 @@ class News extends Component {
         <Jumbotron>
           <h2>Welcome to Universe Sandbox TM</h2>
           <br/>
-          <h3>(Not completed) wiki about Universe and science-related stuff.</h3>
-           <br/>
           <h4>Quick Info of what you can find here:</h4>
-          <h4>Planets Section: Wiki about Universe,Science, Rankings(TOP lists) etc. </h4>
+          <h4>News Section: News from science world</h4>
+          <h4>Wikipedia Section: Wiki about our Solar System,science you can also find there Rankings(TOP lists) etc. </h4>
           <h4>SandBox: Not added yet</h4>
           <h4>For more specific info go to the contact section</h4>
           <p>This site is <a>NOT ACTIVE</a> so news wont be updated</p>

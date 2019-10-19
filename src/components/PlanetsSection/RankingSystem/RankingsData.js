@@ -216,4 +216,57 @@ const PlanetsRankingsData = [
   }
 ]
 
-export {StarsRankingsData,BlackHolesRankingsData,BiggestTelescopesRankingsData,PlanetsRankingsData}
+const HomeTelescopesRankingsData =[
+  {
+    title_ranking:"10.Gskyer EQ 80900",
+    img_ranking:"https://images-na.ssl-images-amazon.com/images/I/71XJN0RByuL._SL1490_.jpg",
+    content_ranking:`Three replaceable eyepiece(36X, 90X, 180X) with a 3X Barlow lens increase viewing power, make locating objects easy.900mm(f/11.25) focal length and 80mm aperture, fully coated optical glass with high transmission coatings creates stunning images with increased brightness and clarity.`
+  },
+  {
+    title_ranking:"9.Celestron AstroMaster 70AZ Refractor",
+    img_ranking:"https://m.media-amazon.com/images/S/aplus-media/vc/75f9ef3e-75df-43e3-bd09-1b7a7558e82f._CR0,0,800,600_PT0_SX800__.jpg",
+    content_ranking:`The Celestron AstroMaster 70AZ Refractor telescope is a powerful and user-friendly refractor telescope. It features fully-coated glass optics, a sturdy and lightweight frame, two eyepieces, a StarPointer red dot finderscope and an adjustable tripod.The heart of the system is a fully-coated 70mm primary mirror. The AstroMaster mount features a panning handle that allows you to make precision adjustments to view celestial and terrestrial objects.`
+  },
+  {
+    title_ranking:"8.Orion 8944 SkyQuest XT6 Classic Dobsonian",
+    img_ranking:"https://telescopeadviser.com/wp-content/uploads/2017/07/orion-skyquest-xt6-classic-dobsonian-telescope.jpg?x65174",
+    content_ranking:`Perhaps the best beginner Dobsonian reflector telescope you can buy - big 6" aperture at an amazing price
+      A beginner may use a 60mm telescope for a few months or years before deciding they need to upgrade to a better telescope - a 6" Dobsonian will give you a lifetime of wonderful views.The 6" diameter f/8 parabolic mirror is fantastic for Moon and planetary views, and also has enough light grasp for deep-sky viewing of nebulas, galaxies, and star clusters.`
+  },
+  {
+    title_ranking:"7.SkyWatcher S11600 Traditional Dobsonian 6-Inch",
+    img_ranking:"https://www.firstlightoptics.com/user/products/skywatcher_skyliner_150p_dobsonian.jpg",
+    content_ranking:``
+  },
+  {
+    title_ranking:"6.Celestron NexStar 130SLT Computerized Telescope",
+    img_ranking:"https://assets.atlasobscura.com/article_images/50516/image.jpg",
+    content_ranking:`The Celestron NexStar 130SLT is a computerized telescope that offers a database of more than 40,000 stars, galaxies, nebulae, and more. The telescope locates your object with pinpoint accuracy and tracks it.`
+  },
+  {
+    title_ranking:"5.Orion 09007 SpaceProbe 130ST",
+    img_ranking:"https://telescopicwatch.com/wp-content/uploads/2018/01/Orion-09007-SpaceProbe-Telescope.jpg",
+    content_ranking:`This 5.1 inch aperture reflector telescope gathers an ample amount of light for great views of the planets and Moon, as well as brighter galaxies, nebulas, and star clusters`
+  },
+  {
+    title_ranking:"4.Celestron NexStar 6SE ",
+    img_ranking:"https://static.bhphoto.com/images/images2500x2500/1481815294_440825.jpg",
+    content_ranking:`The NexStar 6SE Computerized Telescope features Celestron’s iconic orange tube design with updated technology and the latest features for amazing stargazing for beginners and experienced observers.`
+  },
+  {
+    title_ranking:"3.Meade Instruments 216006 Polaris 130 EQ",
+    img_ranking:"https://images-na.ssl-images-amazon.com/images/I/71kyDdg8YbL._SX466_.jpg",
+    content_ranking:``
+  },
+  {
+    title_ranking:"2.Orion 10019 SkyQuest XT10i IntelliScope Dobsonian",
+    img_ranking:"https://images-na.ssl-images-amazon.com/images/I/71lWZ%2BgJUJL._SY679_.jpg",
+    content_ranking:`This clever push-to computerized Dobsonian reflector telescope can lead you to more than 14,000 celestial objects with its included IntelliScope Object Locator.Big 10" (254mm) aperture reflector telescope gathers loads of light for bright views of nebulas, galaxies, star clusters, and close-up study of the Moon and planets.`
+  },
+  {
+    title_ranking:"1.Celestron PowerSeeker 127EQ",
+    img_ranking:"https://static.bhphoto.com/images/images2500x2500/1499688460_370185.jpg",
+    content_ranking:`The Celestron PowerSeeker 127EQ is an easy-to-use and powerful telescope. The PowerSeeker series is designed to give the first-time telescope user the perfect combination of quality, value, features, and power.`
+  }
+]
+export {StarsRankingsData,BlackHolesRankingsData,BiggestTelescopesRankingsData,PlanetsRankingsData,HomeTelescopesRankingsData}

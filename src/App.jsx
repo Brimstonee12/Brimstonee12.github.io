@@ -6,7 +6,7 @@ import Planets from './components/PlanetsSection/Planets'
 import CustomNavbar from './components/CustomNavbar'
 import {Container} from 'react-bootstrap'
 import {SunDetails, MercuryDetails, VenusDetails,EarthDetails,MarsDetails,JupiterDetails,SaturnDetails,UranusDetails,NeptuneDetails } from './components/PlanetsSection/SolarSystem/SolarDetails'
-import {StarsRanking,BlackHolesRanking,BiggestTelescopesRanking,PlanetsRanking} from './components/PlanetsSection/RankingSystem/Rankings'
+import {StarsRanking,BlackHolesRanking,BiggestTelescopesRanking,PlanetsRanking,HomeTelescopesRanking} from './components/PlanetsSection/RankingSystem/Rankings'
 import Contact from './components/Contact'
 import {News1,News2,News3,News4,News5,News6,News7,News8} from './components/NewsSection/NewsDetail'
 import ScrollToTop from './PageDirection'
@@ -38,10 +38,11 @@ class App extends Component {
           <Route path="/neptune-details" component={NeptuneDetails} />
 
           {/* RANKINGS */}
-          <Route path="/stars-ranking" component={StarsRanking} />
+          <Route path="/bstars-ranking" component={StarsRanking} />
           <Route path="/blackholes-ranking" component={BlackHolesRanking} />
           <Route path="/btelescopes-ranking" component={BiggestTelescopesRanking} />
-          <Route path="/planets-ranking" component={PlanetsRanking} />
+          <Route path="/bplanets-ranking" component={PlanetsRanking} />
+          <Route path="/hometelescopes-ranking" component={HomeTelescopesRanking} />
 
           {/* NEWS */}
           <Route path="/news1" component={News1} />

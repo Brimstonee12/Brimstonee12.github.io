@@ -17,6 +17,7 @@ hr {
 
 /* WIKI BUTTONS */
 .WikiButton{
+  margin-top:0px;
   border-radius:20px;
   background-color:#313131;
   border-color: #007bff;
@@ -26,6 +27,12 @@ hr {
   background-color:#3c3c3c;
   border-color:#007bff;
 }
+.WikiButton:focus{
+  background-color:#464646 !important;
+  border-color:#007bff !important;
+  box-shadow:none !important;
+}
+
 
 /* SOLAR SYSTEM BLOCK */
 .solarblock {
@@ -49,20 +56,47 @@ hr {
 /* RANKING BUTTONS ALIGN */
 .RankingsBlock {
   margin-top:20px;
-  display:inline-block;
+  /* display:inline-block; */
+  display:flex;
+  justify-content:space-between;
+  flex-wrap:wrap;
   overflow:hidden;
-  padding:20px;
 }
-.ranking-button {
-  margin:10px;
-  border-radius:15px;
-  overflow:hidden;
-  background:none;
+
+.ranking_button {
+  margin: 30px auto;
+  width: 240px;
+  height: 240px;
+  border-radius: 40px;
+  box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.22);
+  cursor: pointer;
+  transition: 0.4s;
 }
-.ranking-button:hover {
-  background:none;
-  color:none;
-  border-radius:15px;
+.ranking_button_img {
+  width: inherit;
+  height: inherit;
+  border-radius: 40px;
+}
+.ranking_button_img img {
+  width: inherit;
+  height: inherit;
+  border-radius: 40px;
+  object-fit: cover;
+}
+.ranking_button_title {
+  text-align: center;
+  border-radius: 0px 0px 40px 40px;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  margin-top: -90px;
+  height: 40px;
+  color: white;
+}
+.ranking_button:hover {
+  transform: scale(0.9, 0.9);
+  box-shadow: 5px 5px 30px 15px rgba(0,0,0,0.25),
+    -5px -5px 30px 15px rgba(0,0,0,0.22);
 }
 
 /* SOLAR SYSTEM DETAILS */
@@ -74,6 +108,12 @@ hr {
     height: auto;
 }
 
+/* RANKINGS DETAILS */
+.rank-img{
+  max-height:500px;
+}
+
+
 @media (max-width: 500px){
 h2 {
     font-size:2rem;
@@ -84,14 +124,6 @@ h4 {
 .h1-detail{
     font-size:3rem;
 }}
-
-
-
-
-
-
-
-
 
 
 
