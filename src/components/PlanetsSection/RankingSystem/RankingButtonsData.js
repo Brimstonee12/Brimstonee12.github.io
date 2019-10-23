@@ -17,7 +17,7 @@ const RankingButtonData = [
   },
   {
     link:"/btelescopes-ranking",
-    title:"Top 5 Biggest Telescopes",
+    title:"Top 5 Telescopes",
     img:"https://upload.wikimedia.org/wikipedia/commons/a/af/KeckTelescopes-hi.png"
   },
   {
